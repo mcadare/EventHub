@@ -1,0 +1,40 @@
+{
+    "name":        "mcadare/eventhub",
+    "type":        "library",
+    "description": "EventHub is a library which goal is to trigger downstream events following a simple configuration.",
+    "keywords":    [
+        "events",
+        "symfony"
+    ],
+    "homepage":    "https://github.com/mcadare/EventHub",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Meven",
+            "email": "meven.cadare@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php":                          ">=5.3.3"
+    },
+
+    "suggest": {
+        "mcadare/eventhub-bundle":     "symfony integration"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "MCadare\\EventHub\\": ""
+        }
+    },
+
+    "target-dir": "MCadare/EventHub",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
